@@ -95,8 +95,8 @@ atualizem a coluna "Status" quando concluírem (✅ concluído, ⬜ pendente).
 |---|-----------|-------------|--------|--------|
 | 1 | Relatório de Vendas | Maria Luiza O. Rodrigues | ex1-luiza | ✅ |
 | 2 | Alunos em comum | Maria Luiza O. Rodrigues | ex2-luiza | ⬜ |
-| 3 | Enquete da turma | Karine Francisca Pardim Messias | ex3-karine | ⬜ |
-| 4 | Playlist sem repetições | Karine Francisca Pardim Messias | ex4-karine | ⬜ |
+| 3 | Enquete da turma | Karine Francisca Pardim Messias | ex3-karine | ✅ |
+| 4 | Playlist sem repetições | Karine Francisca Pardim Messias | ex4-karine | ✅ |
 | 5 | Inscrições em evento | João Paulo Sousa Mesquita | ex5-joao | ⬜ |
 | 6 | Fila do RU | João Paulo Sousa Mesquita | ex6-joao | ⬜ |
 
