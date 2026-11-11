@@ -2,36 +2,50 @@
 
 Estrutura de Dados I — SI-2026 — UNIFESSPA
 Docente: Adam D. F. dos Santos
-Discentes: João Paulo Sousa Mesquita, Karine Francisca Pardim Messias e Maria Luiza O. Rodrigues
 Linguagem: Java
 
 ## Estrutura do repositório
 
 ```
 .
-├── entrada/   # arquivos de entrada (vendas.csv, votos.txt, playlist.txt, inscricoes.txt, fila.txt)
-├── saida/     # saídas esperadas / geradas para conferência
 ├── src/
-│   ├── ex1/   # Relatório de Vendas
-│   ├── ex2/   # Alunos em comum
-│   ├── ex3/   # Enquete da turma
-│   ├── ex4/   # Playlist sem repetições
-│   ├── ex5/   # Inscrições em evento
-│   └── ex6/   # Fila do RU
+│   ├── ex1/          # Relatório de Vendas
+│   ├── ex2/          # Alunos em comum
+│   ├── ex3/          # Enquete da turma
+│   ├── ex4/          # Playlist sem repetições
+│   ├── ex5/          # Inscrições em evento
+│   └── ex6/          # Fila do RU
+├── saida/            # saídas esperadas, para conferir o resultado dos programas
+├── vendas.csv        # entrada do Ex. 1
+├── votos.txt         # entrada do Ex. 3
+├── playlist.txt      # entrada do Ex. 4
+├── inscricoes.txt    # entrada do Ex. 5
+├── fila.txt          # entrada do Ex. 6
 ├── .gitignore
 └── README.md
 ```
 
-> **Atenção:** o enunciado pede que os arquivos de entrada fiquem **na pasta onde o programa é executado**
-> (`new File("vendas.csv")`). Por isso, rode cada programa de dentro de `entrada/`, por exemplo:
->
-> ```bash
-> cd entrada
-> javac -d ../out ../src/ex1/*.java
-> java -cp ../out ex1.Main
-> ```
->
-> (cada exercício em seu próprio pacote `exN`, com a classe `Main`).
+Cada exercício fica na sua pasta `src/exN/`, dentro do pacote `exN`, com a classe que contém o `main`.
+O Ex. 2 não usa arquivo, porque lê as matrículas pelo teclado.
+
+## Como executar
+
+O enunciado pede que os arquivos de entrada fiquem **na pasta onde o programa é executado**.
+Por isso os arquivos de entrada ficam na **raiz do projeto**, que é a pasta de execução padrão do IntelliJ.
+
+**Pelo IntelliJ:** abra a classe do exercício e clique no botão verde de play ao lado do `main`.
+Confirme que a pasta `src` está marcada como Sources Root (ela aparece em azul). Se não estiver, clique com o
+botão direito em `src` e escolha **Mark Directory as → Sources Root**.
+
+**Pelo terminal (Git Bash), a partir da raiz do projeto:**
+
+```bash
+mkdir -p out
+javac -encoding UTF-8 -d out src/ex1/*.java
+java -cp out ex1.RelatorioVendas
+```
+
+Troque `ex1` e o nome da classe pelos do exercício que quiser rodar.
 
 ## Exercícios
 
@@ -64,22 +78,33 @@ Linguagem: Java
    `ArrayList` (ordem de atendimento). Mostra atendidos, fila final com espera estimada (posição × 3 min), entradas
    recusadas e consulta por nome até digitar `sair`.
 
+## Equipe
+
+| Discente | Exercícios |
+|----------|------------|
+| Maria Luiza O. Rodrigues | 1 e 2 |
+| Karine Francisca Pardim Messias | 3 e 4 |
+| João Paulo Sousa Mesquita | 5 e 6 |
+
 ## Divisão entre a equipe
 
-Cada pessoa escolhe **2 exercícios**. Preencham a coluna "Responsável" e abram um branch por exercício
-(`ex1-nome`, `ex2-nome`, ...).
+Cada pessoa ficou com **2 exercícios**. Abram um branch por exercício (`ex1-nome`, `ex2-nome`, ...) e
+atualizem a coluna "Status" quando concluírem (✅ concluído, ⬜ pendente).
 
 | # | Exercício | Responsável | Branch | Status |
 |---|-----------|-------------|--------|--------|
-| 1 | Relatório de Vendas | Luiza | | ⬜ |
-| 2 | Alunos em comum |Luiza | | ⬜ |
-| 3 | Enquete da turma |Karine | | ⬜ |
-| 4 | Playlist sem repetições |Karine | | ⬜ |
-| 5 | Inscrições em evento |João | | ⬜ |
-| 6 | Fila do RU |João | | ⬜ |
+| 1 | Relatório de Vendas | Maria Luiza O. Rodrigues | ex1-luiza | ✅ |
+| 2 | Alunos em comum | Maria Luiza O. Rodrigues | ex2-luiza | ⬜ |
+| 3 | Enquete da turma | Karine Francisca Pardim Messias | ex3-karine | ⬜ |
+| 4 | Playlist sem repetições | Karine Francisca Pardim Messias | ex4-karine | ⬜ |
+| 5 | Inscrições em evento | João Paulo Sousa Mesquita | ex5-joao | ⬜ |
+| 6 | Fila do RU | João Paulo Sousa Mesquita | ex6-joao | ⬜ |
 
 ## Convenções
 
-- Cada exercício fica no seu pacote (`src/exN/`), para evitar conflitos de merge.
+- Cada exercício fica na sua pasta (`src/exN/`) e no seu pacote (`exN`), para evitar conflitos de merge.
+- Classes auxiliares (`Musica`, `Participante`) ficam na pasta do exercício que as usa.
 - Usar `Locale.setDefault(Locale.US)` no início do `main` (decimais com ponto).
+- Mensagens e saídas devem seguir **exatamente** a "Saída esperada" do enunciado.
+- Não versionar `out/` nem `.idea/` (já estão no `.gitignore`).(Locale.US)` no início do `main` (decimais com ponto).
 - Mensagens e saídas devem seguir **exatamente** a "Saída esperada" do enunciado.
