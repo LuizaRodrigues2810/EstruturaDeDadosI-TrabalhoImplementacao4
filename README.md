@@ -2,6 +2,7 @@
 
 Estrutura de Dados I — SI-2026 — UNIFESSPA
 Docente: Adam D. F. dos Santos
+Discentes: João Paulo Sousa Mesquita, Karine Francisca Pardim Messias e Maria Luiza O. Rodrigues
 Linguagem: Java
 
 ## Estrutura do repositório
