@@ -1,0 +1,8 @@
+Lucas Lima;lucas@email.com;SI
+Beatriz Souza;bia@email.com;CC
+Ana Costa;ana@email.com;SI
+Lucas Lima;lucas@email.com;SI
+Rafael Dias;rafa@email.com;ES
+Beatriz S.;bia@email.com;CC
+Carlos Nunes;carlos@email.com;CC
+Fernanda Reis;fer@email.com;SI
