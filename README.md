@@ -71,12 +71,12 @@ Cada pessoa escolhe **2 exercícios**. Preencham a coluna "Responsável" e abram
 
 | # | Exercício | Responsável | Branch | Status |
 |---|-----------|-------------|--------|--------|
-| 1 | Relatório de Vendas | | | ⬜ |
-| 2 | Alunos em comum | | | ⬜ |
-| 3 | Enquete da turma | | | ⬜ |
-| 4 | Playlist sem repetições | | | ⬜ |
-| 5 | Inscrições em evento | | | ⬜ |
-| 6 | Fila do RU | | | ⬜ |
+| 1 | Relatório de Vendas | Luiza | | ⬜ |
+| 2 | Alunos em comum |Luiza | | ⬜ |
+| 3 | Enquete da turma |Karine | | ⬜ |
+| 4 | Playlist sem repetições |Karine | | ⬜ |
+| 5 | Inscrições em evento |João | | ⬜ |
+| 6 | Fila do RU |João | | ⬜ |
 
 ## Convenções
 
