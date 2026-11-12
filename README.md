@@ -94,9 +94,9 @@ atualizem a coluna "Status" quando concluírem (✅ concluído, ⬜ pendente).
 | # | Exercício | Responsável | Branch | Status |
 |---|-----------|-------------|--------|--------|
 | 1 | Relatório de Vendas | Maria Luiza O. Rodrigues | ex1-luiza | ✅ |
-| 2 | Alunos em comum | Maria Luiza O. Rodrigues | ex2-luiza | ⬜ |
-| 3 | Enquete da turma | Karine Francisca Pardim Messias | ex3-karine | ✅ |
-| 4 | Playlist sem repetições | Karine Francisca Pardim Messias | ex4-karine | ✅ |
+| 2 | Alunos em comum | Maria Luiza O. Rodrigues | ex2-luiza | ✅ |
+| 3 | Enquete da turma | Karine Francisca Pardim Messias | ex3-karine | ⬜ |
+| 4 | Playlist sem repetições | Karine Francisca Pardim Messias | ex4-karine | ⬜ |
 | 5 | Inscrições em evento | João Paulo Sousa Mesquita | ex5-joao | ⬜ |
 | 6 | Fila do RU | João Paulo Sousa Mesquita | ex6-joao | ⬜ |
 
@@ -106,5 +106,4 @@ atualizem a coluna "Status" quando concluírem (✅ concluído, ⬜ pendente).
 - Classes auxiliares (`Musica`, `Participante`) ficam na pasta do exercício que as usa.
 - Usar `Locale.setDefault(Locale.US)` no início do `main` (decimais com ponto).
 - Mensagens e saídas devem seguir **exatamente** a "Saída esperada" do enunciado.
-- Não versionar `out/` nem `.idea/` (já estão no `.gitignore`).(Locale.US)` no início do `main` (decimais com ponto).
-- Mensagens e saídas devem seguir **exatamente** a "Saída esperada" do enunciado.
+- Não versionar `out/` nem `.idea/` (já estão no `.gitignore`).e** a "Saída esperada" do enunciado.
