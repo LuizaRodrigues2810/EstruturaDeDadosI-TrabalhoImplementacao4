@@ -15,7 +15,6 @@ Linguagem: Java
 │   ├── ex4/          # Playlist sem repetições
 │   ├── ex5/          # Inscrições em evento
 │   └── ex6/          # Fila do RU
-├── saida/            # saídas esperadas, para conferir o resultado dos programas
 ├── vendas.csv        # entrada do Ex. 1
 ├── votos.txt         # entrada do Ex. 3
 ├── playlist.txt      # entrada do Ex. 4
@@ -97,7 +96,7 @@ atualizem a coluna "Status" quando concluírem (✅ concluído, ⬜ pendente).
 | 2 | Alunos em comum | Maria Luiza O. Rodrigues | ex2-luiza | ✅ |
 | 3 | Enquete da turma | Karine Francisca Pardim Messias | ex3-karine | ✅ |
 | 4 | Playlist sem repetições | Karine Francisca Pardim Messias | ex4-karine | ✅ |
-| 5 | Inscrições em evento | João Paulo Sousa Mesquita | ex5-joao | ⬜ |
+| 5 | Inscrições em evento | João Paulo Sousa Mesquita | ex5-joao | ✅ |
 | 6 | Fila do RU | João Paulo Sousa Mesquita | ex6-joao | ⬜ |
 
 ## Convenções
